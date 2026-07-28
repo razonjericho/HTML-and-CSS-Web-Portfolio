@@ -100,9 +100,9 @@ function Header() {
                                         key={item.id}
                                         color="inherit"
                                         sx={{
-                                            color: "text.secondary",
+                                            color: "text.primary",
 
-                                            fontWeight: 500,
+                                            fontWeight: 600,
 
                                             fontSize: {
                                                 md: "1.5rem",
@@ -178,9 +178,9 @@ function Header() {
                     >
                         <Typography
                             variant="h6"
-                            fontWeight={700}
-                            color="primary.main"
                             sx={{
+                                color:"primary.main",
+                                fontWeight: 700,
                                 fontSize: {
                                     sm: "1.65rem",
                                 },
