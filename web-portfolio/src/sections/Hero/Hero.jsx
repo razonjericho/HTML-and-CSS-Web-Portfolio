@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Grid, Box, Typography, Button, Stack } from "@mui/material";
-import ProfileImage from "../../assets/Images/Profile/Profile.jpg";
+import CodeRoundedIcon from "@mui/icons-material/CodeRounded";
 
 function Hero() {
     return (
@@ -58,7 +58,7 @@ function Hero() {
                                     xs: "2.8rem",
                                     sm: "3.5rem",
                                     md: "4.5rem",
-                                    lg: "5rem",
+                                    lg: "3rem",
                                 },
 
                                 fontWeight: 700,
@@ -81,6 +81,7 @@ function Hero() {
                                     xs: "1.2rem",
                                     sm: "1.8rem",
                                     md: "2.2rem",
+                                    lg: "1.8rem",
                                 },
                             }}
                         >
@@ -99,6 +100,7 @@ function Hero() {
                                     xs: "1rem",
                                     sm: "1.1rem",
                                     md: "1.6rem",
+                                    lg: "1.2rem",
                                 },
 
                                 lineHeight: 1.8,
@@ -119,6 +121,7 @@ function Hero() {
                                     xs: "0.9rem",
                                     sm: "1.1rem",
                                     md: "1.4rem",
+                                    lg: "1.2rem",
                                 },
 
                                 fontWeight: 600,
@@ -213,36 +216,33 @@ function Hero() {
                             xs: 12,
                             md: 5,
                         }}
+                        sx={{
+                            display: {
+                                xs: "none",
+                                md: "flex",
+                            },
+                        }}
                     >
                         <Box
                             sx={{
+                                width: 320,
+                                height: 320,
+                                borderRadius: "50%",
+                                background:
+                                    "linear-gradient(135deg, rgba(37,99,235,0.08), rgba(37,99,235,0.02))",
                                 display: "flex",
                                 justifyContent: "center",
+                                alignItems: "center",
                             }}
                         >
-                            <Box
-                                component="img"
-                                src={ProfileImage}
-                                alt="Jericho Pete Razon"
+                            <CodeRoundedIcon
                                 sx={{
-                                    width: {
-                                        xs: 250,
-                                        sm: 320,
-                                        md: 360,
-                                        lg: 420,
-                                    },
-
-                                    aspectRatio: "1",
-
-                                    objectFit: "cover",
-
-                                    borderRadius: "50%",
-
-                                    boxShadow:
-                                        "0 10px 30px rgba(0,0,0,0.15)",
+                                    fontSize: 120,
+                                    color: "primary.main",
                                 }}
                             />
                         </Box>
+                        
                     </Grid>
                 </Grid>
             </Container>
