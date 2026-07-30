@@ -15,6 +15,34 @@ function About() {
             }}
         >
             <Container maxWidth="lg">
+
+                <Typography
+                    variant="h2"
+                    sx={{
+                        fontSize: {
+                            xs: "2.8rem",
+                            sm: "3.5rem",
+                            md: "4.5rem",
+                            lg: "2.5rem",
+                        },
+                        fontWeight: 700,
+                        lineHeight: 1.1,
+
+                        pt: {
+                            xs: 8,
+                            md: 12,
+                            lg: 2,
+                        },
+
+                        mb: {
+                            xs: 5,
+                            lg: 6,
+                        },
+                    }}
+                >
+                    About Me
+                </Typography>
+
                 <Grid
                     container
                     spacing={{
@@ -22,132 +50,115 @@ function About() {
                         md: 8,
                     }}
                     sx={{
-                        alignItems:"center",
+                        alignItems:"flex-start",
                     }}
                 >
                     <Grid
                         size={{
                             xs: 12,
-                            md: 7,
+                            lg: 7,
+                        }}
+                        sx={{
+                            maxWidth: {
+                                xs: "100%",
+                                sm: 520,
+                                md: 720,
+                                lg: "100%",
+                            },
+                            mx: "auto",
+
+                            order: {
+                                xs: 2,
+                                lg: 1,
+                            },
                         }}
                     >
                         <Typography
-                            variant="h2"
+                            variant="body1"
                             sx={{
-                                mb: 2,
+                                color: "text.secondary",
+                                mb: 4,
 
                                 fontSize: {
-                                    xs: "2.8rem",
-                                    sm: "3.5rem",
-                                    md: "4.5rem",
-                                    lg: "2.5rem",
+                                    xs: "1rem",
+                                    sm: "1.1rem",
+                                    md: "1.6rem",
+                                    lg: "1rem",
                                 },
 
-                                fontWeight: 700,
-
-                                lineHeight: 1.1,
-                                
-                                py: {
-                                    xs: 8,
-                                    md: 12,
-                                    lg: 2,
-                                },
+                                lineHeight: 1.8,
                             }}
                         >
-                            About Me
+                            I'm a Psychology graduate transitioning into full-stack
+                            software development. I enjoy building responsive,
+                            user-focused web applications with clean UI and efficient
+                            backend architecture.
                         </Typography>
 
-                        <Box
+                        <Typography
+                            variant="body1"
                             sx={{
-                                maxWidth: 720,
-                                mb: 8,
+                                color: "text.secondary",
+                                mb: 4,
+
+                                fontSize: {
+                                    xs: "1rem",
+                                    sm: "1.1rem",
+                                    md: "1.6rem",
+                                    lg: "1rem",
+                                },
+
+                                lineHeight: 1.8,
                             }}
                         >
+                            My background in psychology strengthened my analytical
+                            thinking, communication, and understanding of user
+                            behavior—skills I now apply when designing intuitive and
+                            accessible software.
+                        </Typography>
 
-                            <Typography
-                                variant="body1"
-                                sx={{
-                                    color:"text.secondary",
-                                    maxWidth: 600,
+                        <Typography
+                            variant="body1"
+                            sx={{
+                                color: "text.secondary",
 
-                                    mb: 4,
+                                fontSize: {
+                                    xs: "1rem",
+                                    sm: "1.1rem",
+                                    md: "1.6rem",
+                                    lg: "1rem",
+                                },
 
-                                    fontSize: {
-                                        xs: "1rem",
-                                        sm: "1.1rem",
-                                        md: "1.6rem",
-                                        lg: "1rem",
-                                    },
-
-                                    lineHeight: 1.8,
-                                }}
-                            >
-                                I'm a Psychology graduate transitioning into full-stack
-                                software development. I enjoy building responsive,
-                                user-focused web applications with clean UI and efficient
-                                backend architecture.
-                            </Typography>
-
-                            <Typography
-                                variant="body1"
-                                sx={{
-                                    color:"text.secondary",
-                                    maxWidth: 600,
-
-                                    mb: 4,
-
-                                    fontSize: {
-                                        xs: "1rem",
-                                        sm: "1.1rem",
-                                        md: "1.6rem",
-                                        lg: "1rem",
-                                    },
-
-                                    lineHeight: 1.8,
-                                }}
-                            >
-                                My background in psychology strengthened my analytical
-                                thinking, communication, and understanding of user
-                                behavior—skills I now apply when designing intuitive and
-                                accessible software.
-                            </Typography>
-
-                            <Typography
-                                variant="body1"
-                                sx={{
-                                    color:"text.secondary",
-                                    maxWidth: 600,
-
-                                    mb: 4,
-
-                                    fontSize: {
-                                        xs: "1rem",
-                                        sm: "1.1rem",
-                                        md: "1.6rem",
-                                        lg: "1rem",
-                                    },
-
-                                    lineHeight: 1.8,
-                                }}
-                            >
-                                I'm currently expanding my backend expertise through
-                                React, Node.js, Express, PostgreSQL, REST APIs, JWT
-                                authentication, and scalable application design while
-                                continuously improving as a software developer.
-                            </Typography>
-                        </Box> 
+                                lineHeight: 1.8,
+                            }}
+                        >
+                            I'm currently expanding my backend expertise through
+                            React, Node.js, Express, PostgreSQL, REST APIs, JWT
+                            authentication, and scalable application design while
+                            continuously improving as a software developer.
+                        </Typography>
                     </Grid>
 
                     <Grid
                         size={{
                             xs: 12,
-                            md: 5,
+                            lg: 5,
+                        }}
+                        sx={{
+                            order: {
+                                xs: 1,
+                                lg: 2,
+                            },
                         }}
                     >
                         <Box
                             sx={{
                                 display: "flex",
                                 justifyContent: "center",
+
+                                mt: {
+                                    lg: -6,
+                                }
                             }}
                         >
                             <Box
@@ -163,9 +174,7 @@ function About() {
                                     },
 
                                     aspectRatio: "1",
-
                                     objectFit: "cover",
-
                                     borderRadius: "50%",
 
                                     boxShadow:
@@ -173,7 +182,7 @@ function About() {
                                 }}
                             />
                         </Box>
-                    </Grid> 
+                    </Grid>
                 </Grid>
             </Container>
         </Box>
