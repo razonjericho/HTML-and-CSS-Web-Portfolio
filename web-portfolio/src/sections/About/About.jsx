@@ -76,7 +76,7 @@ function About() {
                                         xs: "1rem",
                                         sm: "1.1rem",
                                         md: "1.6rem",
-                                        lg: "1.2rem",
+                                        lg: "1rem",
                                     },
 
                                     lineHeight: 1.8,
@@ -100,7 +100,7 @@ function About() {
                                         xs: "1rem",
                                         sm: "1.1rem",
                                         md: "1.6rem",
-                                        lg: "1.2rem",
+                                        lg: "1rem",
                                     },
 
                                     lineHeight: 1.8,
@@ -124,7 +124,7 @@ function About() {
                                         xs: "1rem",
                                         sm: "1.1rem",
                                         md: "1.6rem",
-                                        lg: "1.2rem",
+                                        lg: "1rem",
                                     },
 
                                     lineHeight: 1.8,
@@ -159,7 +159,7 @@ function About() {
                                         xs: 250,
                                         sm: 320,
                                         md: 360,
-                                        lg: 420,
+                                        lg: 360,
                                     },
 
                                     aspectRatio: "1",

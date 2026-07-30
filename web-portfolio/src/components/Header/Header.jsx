@@ -27,7 +27,7 @@ function Header() {
     return (
         <Box>
             <AppBar
-                position="sticky"
+                position="fixed"
                 elevation={1}
                 sx={{
                     bgcolor: "background.paper",
@@ -43,13 +43,6 @@ function Header() {
                             display: "flex",
                             justifyContent: "space-between",
                             alignItems: "center",
-
-                            px: {
-                                xs: 2,
-                                sm: 3,
-                                md: 5,
-                                lg: 6,
-                            },
 
                             py: {
                                 xs: 2,

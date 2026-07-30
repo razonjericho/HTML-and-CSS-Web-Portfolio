@@ -17,234 +17,191 @@ function Hero() {
             }}
         >
             <Container maxWidth="lg">
-                <Grid
-                    container
-                    spacing={{
-                        xs: 6,
-                        md: 8,
-                    }}
+                <Box
                     sx={{
-                        alignItems:"center",
+                        maxWidth: {
+                            xs: "100%",
+                            md: 720,
+                            lg: 760,
+                        },
                     }}
                 >
+                    <Typography
+                        sx={{
+                            fontSize: {
+                                sm: "1.5rem",
+                                md: "2.2rem",
+                                lg: "1.5rem",
+                            },
+                            color:"primary.main",
+                            fontWeight: 600,
+                        }}
+                        gutterBottom
+                    >
+                        Hi, I'm
+                    </Typography>
 
-                    <Grid
-                        size={{
-                            xs: 12,
-                            md: 7,
+                    <Typography
+                        variant="h1"
+                        sx={{
+                            mb: 2,
+
+                            fontSize: {
+                                xs: "2.8rem",
+                                sm: "3.5rem",
+                                md: "4.5rem",
+                                lg: "3rem",
+                            },
+
+                            fontWeight: 700,
+
+                            lineHeight: 1.1,
                         }}
                     >
-                        <Typography
-                            sx={{
-                                fontSize: {
-                                    sm: "1.5rem",
-                                    md: "2.2rem",
-                                    lg: "1.5rem",
-                                },
-                                color:"primary.main",
-                                fontWeight: 600,
-                            }}
-                            gutterBottom
-                        >
-                            Hi, I'm
-                        </Typography>
+                        Jericho Pete Razon
+                    </Typography>
 
-                        <Typography
-                            variant="h1"
-                            sx={{
-                                mb: 2,
-
-                                fontSize: {
-                                    xs: "2.8rem",
-                                    sm: "3.5rem",
-                                    md: "4.5rem",
-                                    lg: "3rem",
-                                },
-
-                                fontWeight: 700,
-
-                                lineHeight: 1.1,
-                            }}
-                        >
-                            Jericho Pete Razon
-                        </Typography>
-
-                        <Typography
-                            variant="h4"
-                            sx={{
-                                color: "primary.main",
-                                mb: 3,
-
-                                fontWeight: 600,
-
-                                fontSize: {
-                                    xs: "1.2rem",
-                                    sm: "1.8rem",
-                                    md: "2.2rem",
-                                    lg: "1.8rem",
-                                },
-                            }}
-                        >
-                            Full-Stack Web Developer
-                        </Typography>
-
-                        <Typography
-                            variant="body1"
-                            sx={{
-                                color:"text.secondary",
-                                maxWidth: 600,
-
-                                mb: 4,
-
-                                fontSize: {
-                                    xs: "1rem",
-                                    sm: "1.1rem",
-                                    md: "1.6rem",
-                                    lg: "1.2rem",
-                                },
-
-                                lineHeight: 1.8,
-                            }}
-                        >
-                            I build responsive, user-focused
-                            full-stack web applications using
-                            React, Node.js, Express, and PostgreSQL.
-                            I enjoy creating clean interfaces
-                            and reliable backend systems that
-                            solve real-world problems.
-                        </Typography>
-
-                        <Typography
-                            sx={{
-                                mb: 4,
-                                fontSize: {
-                                    xs: "0.9rem",
-                                    sm: "1.1rem",
-                                    md: "1.4rem",
-                                    lg: "1.2rem",
-                                },
-
-                                fontWeight: 600,
-
-                                color: "primary.main",
-                            }}
-                        >
-                            Let's build something amazing together.
-                        </Typography>
-
-                        <Stack
-                            direction={{
-                                xs: "column",
-                                sm: "row",
-                            }}
-                            spacing={2}
-                        >
-                            <Button
-                                variant="contained"
-                                sx={{
-                                    px: {
-                                        xs: 3,
-                                        sm: 4,
-                                        md: 4.5,
-                                        lg: 5,
-                                    },
-
-                                    py: {
-                                        xs: 1.3,
-                                        sm: 1.5,
-                                        md: 1.6,
-                                        lg: 1.7,
-                                    },
-
-                                    fontSize: {
-                                        xs: "0.95rem",
-                                        sm: "1rem",
-                                        md: "1.05rem",
-                                        lg: "1.05rem",
-                                    },
-
-                                    minWidth: {
-                                        xs: 140,
-                                        sm: 170,
-                                        md: 190,
-                                        lg: 200,
-                                    },
-                                }}
-                            >
-                                View Projects
-                            </Button>
-
-                            <Button
-                                variant="outlined"
-                                sx={{
-                                    px: {
-                                        xs: 3,
-                                        sm: 4,
-                                        md: 4.5,
-                                        lg: 5,
-                                    },
-
-                                    py: {
-                                        xs: 1.3,
-                                        sm: 1.5,
-                                        md: 1.6,
-                                        lg: 1.7,
-                                    },
-
-                                    fontSize: {
-                                        xs: "0.95rem",
-                                        sm: "1rem",
-                                        md: "1.05rem",
-                                        lg: "1.05rem",
-                                    },
-
-                                    minWidth: {
-                                        xs: 140,
-                                        sm: 170,
-                                        md: 190,
-                                        lg: 200,
-                                    },
-                                }}
-                            >
-                                Contact Me
-                            </Button>
-                        </Stack>
-                    </Grid>
-
-                    <Grid
-                        size={{
-                            xs: 12,
-                            md: 5,
-                        }}
+                    <Typography
+                        variant="h4"
                         sx={{
-                            display: {
-                                xs: "none",
-                                md: "flex",
+                            color: "primary.main",
+                            mb: 3,
+
+                            fontWeight: 600,
+
+                            fontSize: {
+                                xs: "1.2rem",
+                                sm: "1.8rem",
+                                md: "2.2rem",
+                                lg: "1.8rem",
                             },
                         }}
                     >
-                        <Box
+                        Full-Stack Web Developer
+                    </Typography>
+
+                    <Typography
+                        variant="body1"
+                        sx={{
+                            color:"text.secondary",
+                            maxWidth: 600,
+
+                            mb: 4,
+
+                            fontSize: {
+                                xs: "1rem",
+                                sm: "1.1rem",
+                                md: "1.6rem",
+                                lg: "1.1rem",
+                            },
+
+                            lineHeight: 1.8,
+                        }}
+                    >
+                        I build responsive, user-focused
+                        full-stack web applications using
+                        React, Node.js, Express, and PostgreSQL.
+                        I enjoy creating clean interfaces
+                        and reliable backend systems that
+                        solve real-world problems.
+                    </Typography>
+
+                    <Typography
+                        sx={{
+                            mb: 4,
+                            fontSize: {
+                                xs: "0.9rem",
+                                sm: "1.1rem",
+                                md: "1.4rem",
+                                lg: "1.2rem",
+                            },
+
+                            fontWeight: 600,
+
+                            color: "primary.main",
+                        }}
+                    >
+                        Let's build something amazing together.
+                    </Typography>
+
+                    <Stack
+                        direction={{
+                            xs: "column",
+                            sm: "row",
+                        }}
+                        spacing={2}
+                    >
+                        <Button
+                            variant="contained"
                             sx={{
-                                width: 320,
-                                height: 320,
-                                borderRadius: "50%",
-                                background:
-                                    "linear-gradient(135deg, rgba(37,99,235,0.08), rgba(37,99,235,0.02))",
-                                display: "flex",
-                                justifyContent: "center",
-                                alignItems: "center",
+                                px: {
+                                    xs: 3,
+                                    sm: 4,
+                                    md: 4.5,
+                                    lg: 5,
+                                },
+
+                                py: {
+                                    xs: 1.3,
+                                    sm: 1.5,
+                                    md: 1.6,
+                                    lg: 1.7,
+                                },
+
+                                fontSize: {
+                                    xs: "0.95rem",
+                                    sm: "1rem",
+                                    md: "1.05rem",
+                                    lg: "1.05rem",
+                                },
+
+                                minWidth: {
+                                    xs: 140,
+                                    sm: 170,
+                                    md: 190,
+                                    lg: 200,
+                                },
                             }}
                         >
-                            <CodeRoundedIcon
-                                sx={{
-                                    fontSize: 120,
-                                    color: "primary.main",
-                                }}
-                            />
-                        </Box>
-                        
-                    </Grid>
-                </Grid>
+                            View Projects
+                        </Button>
+
+                        <Button
+                            variant="outlined"
+                            sx={{
+                                px: {
+                                    xs: 3,
+                                    sm: 4,
+                                    md: 4.5,
+                                    lg: 5,
+                                },
+
+                                py: {
+                                    xs: 1.3,
+                                    sm: 1.5,
+                                    md: 1.6,
+                                    lg: 1.7,
+                                },
+
+                                fontSize: {
+                                    xs: "0.95rem",
+                                    sm: "1rem",
+                                    md: "1.05rem",
+                                    lg: "1.05rem",
+                                },
+
+                                minWidth: {
+                                    xs: 140,
+                                    sm: 170,
+                                    md: 190,
+                                    lg: 200,
+                                },
+                            }}
+                        >
+                            Contact Me
+                        </Button>
+                    </Stack>
+                </Box>  
             </Container>
         </Box>
     );
