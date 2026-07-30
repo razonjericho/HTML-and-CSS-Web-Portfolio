@@ -1,7 +1,7 @@
 import React from 'react';
 import techStackData from "./techStackData";
 import TechStackCard from './TechStackCard';
-import { Container, Box, Grid } from "@mui/material";
+import { Container, Typography, Box, Grid } from "@mui/material";
 
 function TechStack(props) {
     return (
@@ -17,6 +17,34 @@ function TechStack(props) {
             }}
         >
             <Container maxWidth="lg">
+
+                <Typography
+                    variant="h2"
+                    sx={{
+                        fontSize: {
+                            xs: "2.8rem",
+                            sm: "3.5rem",
+                            md: "4.5rem",
+                            lg: "2.5rem",
+                        },
+                        fontWeight: 700,
+                        lineHeight: 1.1,
+
+                        pt: {
+                            xs: 8,
+                            md: 12,
+                            lg: 2,
+                        },
+
+                        mb: {
+                            xs: 5,
+                            lg: 6,
+                        },
+                    }}
+                >
+                    Tech Stack
+                </Typography>
+
                 <Grid
                     container
                     spacing={3}
