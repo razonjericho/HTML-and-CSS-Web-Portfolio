@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Typography } from "@mui/material";
+import { Container, Typography, Divider } from "@mui/material";
 import ExperienceItem from "./ExperienceItem";
 import workExperienceData from "./ExperienceData";
 
@@ -45,6 +45,11 @@ function Experience(props) {
                     description={job.description}
                 />
             ))}
+
+            <Divider sx={{ 
+                mt: 5,
+                mb: 5 }} 
+            />
         </Container>
     )
 }

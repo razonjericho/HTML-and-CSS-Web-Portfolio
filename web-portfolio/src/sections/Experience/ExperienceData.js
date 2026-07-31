@@ -2,7 +2,7 @@ const workExperienceData = [
     {
         company: "Teleperformance",
         role: "Customer Service",
-        period: "2024 – 2025",
+        period: "November 2024 – July 2025",
         type: "Full-time",
         description: [
             "Resolved complex client issues using analytical problem-solving and strong communication.",
@@ -13,7 +13,7 @@ const workExperienceData = [
     {
         company: "Total Network Consulting",
         role: "Virtual Assistant",
-        period: "2025 – present",
+        period: "July 2025 – Present",
         type: "Full-time",
         description: [
             "Assisted with data entry, report preparation, and administrative workflows while maintaining confidentiality.",
