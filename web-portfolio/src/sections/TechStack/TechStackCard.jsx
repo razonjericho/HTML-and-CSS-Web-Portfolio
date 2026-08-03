@@ -25,6 +25,9 @@ function TechStackCard ({ title, skills }) {
                     fontWeight={600}
                     sx={{
                         color: "primary.main",
+                        fontSize: {
+                            lg: "1.1rem",
+                        }
                     }}
                 >
                     {title}
@@ -46,7 +49,7 @@ function TechStackCard ({ title, skills }) {
                                 py: 0.75,
                                 color: "text.secondary",
 
-                                borderRadius: 2,
+                                borderRadius: 1,
 
                                 bgcolor: "#F6F8FC",
 

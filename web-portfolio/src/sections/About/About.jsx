@@ -10,7 +10,9 @@ function About() {
             sx={{
                 py: {
                     xs: 8,
+                    sm: 10,
                     md: 12,
+                    lg: 8,
                 },
             }}
         >
