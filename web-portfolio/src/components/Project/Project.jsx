@@ -1,8 +1,9 @@
 import React from "react";
-import { Container, Box, Typography, Grid, Stack, List, ListItem, ListItemIcon, ListItemText } from "@mui/material";
+import { Container, Box, Typography, Grid, Stack, List, ListItem, ListItemIcon, ListItemText, Divider, Chip } from "@mui/material";
 import ProgressPage from "../../assets/Images/ProjectScreenshot/ProgressPage.png";
 import CheckIcon from "@mui/icons-material/Check";
 import featuresData from "./FeaturesData";
+import techStack from "./TechStackData";
 
 function Project() {
     return (
@@ -122,7 +123,7 @@ function Project() {
 
                                     color: "primary.dark",
                                     
-                                    fontWeight: 600,
+                                    fontWeight: 700,
                                 }}
                             >
                                 KEY FEATURES
@@ -191,8 +192,82 @@ function Project() {
                                     </ListItem>
                                 ))}
                             </List>
-                        
-                        
+                        <Divider
+                            sx={{ 
+                                mt: 2,
+                                mb: 2 
+                            }} 
+                        />
+
+                        <Typography
+                            variant="h4"
+                            sx={{
+                                fontSize: {
+                                    xs: "1rem",
+                                    sm: "1rem",
+                                    md: "1.5rem",
+                                    lg: "1rem",
+                                },
+
+                                color: "primary.dark",
+                                
+                                fontWeight: 700,
+
+                                pb: {
+                                    xs: 1.5,
+                                    lg: 1.5,
+                                }
+                            }}
+                        >
+                            TECH STACK
+                        </Typography>
+
+                        <Stack
+                            direction="row"
+                            spacing={1}
+                            useFlexGap
+                            sx={{
+                               flexWrap:"wrap",
+                            }}
+                        >
+                            {techStack.map((tech) => (
+                                <Chip
+                                    key={tech}
+                                    label={tech}
+                                        sx={{
+                                        px: 1.5,
+                                        py: 0.75,
+
+                                        color: "text.secondary",
+
+                                        borderRadius: 1,
+
+                                        bgcolor: "#F6F8FC",
+
+                                        border: "1px solid",
+                                        borderColor: "divider",
+
+                                        transition: "all 0.25s ease",
+
+                                        "&:hover": {
+                                            borderColor: "primary.main",
+                                        },
+
+                                        "& .MuiChip-label": {
+                                            fontSize: {
+                                                md: "1.15rem",
+                                                lg: "0.75rem",
+                                            },
+
+                                            px: {
+                                                md: 3,
+                                                lg: 1.5,
+                                            },
+                                        }
+                                    }}
+                                />
+                            ))}
+                        </Stack>
                     </Grid>
                 </Grid>
             </Container> 
