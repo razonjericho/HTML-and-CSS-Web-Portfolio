@@ -1,9 +1,11 @@
 import React from "react";
-import { Container, Box, Typography, Grid, Stack, List, ListItem, ListItemIcon, ListItemText, Divider, Chip } from "@mui/material";
+import { Container, Box, Typography, Grid, Stack, List, ListItem, ListItemIcon, ListItemText, Divider, Chip, Link } from "@mui/material";
 import ProgressPage from "../../assets/Images/ProjectScreenshot/ProgressPage.png";
 import CheckIcon from "@mui/icons-material/Check";
 import featuresData from "./FeaturesData";
 import techStack from "./TechStackData";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LaunchIcon from "@mui/icons-material/Launch";
 
 function Project() {
     return (
@@ -60,6 +62,85 @@ function Project() {
                                 }}
                             />
                         </Box>
+
+                        <Stack
+                            direction="row"
+                            spacing={3}
+                            sx={{ mt: 3, ml: 1, }}
+                        >
+                            <Link
+                                href="https://github.com/razonjericho/Habit-Tracker"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                underline="hover"
+                                color="primary"
+                                sx={{
+                                    display: "flex",
+                                    alignItems: "center",
+                                    gap: 0.75,
+                                    fontWeight: 500,
+
+                                    transition: "0.2s",
+
+                                    "&:hover": {
+                                        color: "primary.dark",
+                                    },
+                                    fontSize: {
+                                        xs: "0.9rem",
+                                        sm: "1.1rem",
+                                        md: "1.4rem",
+                                        lg: "1rem",
+                                    },
+                                }}
+                            >
+                                <GitHubIcon
+                                    sx={{
+                                        fontSize: {
+                                            md: "2rem",
+                                            lg: "1.25rem",
+                                        },
+                                        mb: 0.5,
+                                    }}
+                                />
+                                GitHub
+                            </Link>
+
+                            <Link
+                                href="https://habit-tracker-alpha-cyan.vercel.app/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                underline="hover"
+                                color="primary"
+                                sx={{
+                                    display: "flex",
+                                    alignItems: "center",
+                                    gap: 0.75,
+                                    fontWeight: 500,
+
+                                    transition: "0.2s",
+
+                                    "&:hover": {
+                                        color: "primary.dark",
+                                    },
+                                    fontSize: {
+                                        xs: "0.9rem",
+                                        sm: "1.1rem",
+                                        md: "1.4rem",
+                                        lg: "1rem",
+                                    },
+                                }}
+                            >
+                                <LaunchIcon 
+                                    sx={{
+                                        fontSize: {
+                                            md: "2rem",
+                                            lg: "1.25rem",
+                                        },
+                                    }}
+                                />
+                                Live Demo
+                            </Link>
+                        </Stack>
                     </Grid>
 
                     <Grid 
