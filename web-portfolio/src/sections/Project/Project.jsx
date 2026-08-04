@@ -2,8 +2,8 @@ import React from "react";
 import { Container, Box, Typography, Grid, Stack, List, ListItem, ListItemIcon, ListItemText, Divider, Chip, Link } from "@mui/material";
 import ProgressPage from "../../assets/Images/ProjectScreenshot/ProgressPage.png";
 import CheckIcon from "@mui/icons-material/Check";
-import featuresData from "./FeaturesData";
-import techStack from "./TechStackData";
+import featuresData from "./featuresData";
+import techStack from "./techStackData";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LaunchIcon from "@mui/icons-material/Launch";
 

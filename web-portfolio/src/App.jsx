@@ -4,7 +4,8 @@ import Hero from "./sections/Hero/Hero";
 import About from "./sections/About/About";
 import TechStack from "./sections/TechStack/TechStack";
 import Experience from "./sections/Experience/Experience";
-import Project from "./components/Project/Project";
+import Project from "./sections/Project/Project";
+import Contact from "./sections/Contact/Contact";
 import { Button, Card, CardContent, Typography, Container, Toolbar } from "@mui/material";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <TechStack />
         <Experience />
         <Project />
+        <Contact />
       </main>
     </div>
     

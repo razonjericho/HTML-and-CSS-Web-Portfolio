@@ -7,6 +7,7 @@ function TechStack(props) {
     return (
         <Box 
             component="section"
+            id="tech stack"
             sx={{
                 py: {
                     xs: 8,
@@ -60,9 +61,6 @@ function TechStack(props) {
                                     sm: 6,
                                     md: 6,
                                     lg: 3,
-                                }}
-                                sx={{
-                                    display: "flex",
                                 }}
                             >
                                 <TechStackCard
