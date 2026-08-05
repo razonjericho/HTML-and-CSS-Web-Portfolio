@@ -6,6 +6,7 @@ import TechStack from "./sections/TechStack/TechStack";
 import Experience from "./sections/Experience/Experience";
 import Project from "./sections/Project/Project";
 import Contact from "./sections/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 import { Button, Card, CardContent, Typography, Container, Toolbar } from "@mui/material";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Experience />
         <Project />
         <Contact />
+        <Footer />
       </main>
     </div>
     
