@@ -3,6 +3,7 @@ import Header from "./components/Header/Header";
 import Hero from "./sections/Hero/Hero";
 import About from "./sections/About/About";
 import TechStack from "./sections/TechStack/TechStack";
+import Education from "./sections/Education/Education";
 import Experience from "./sections/Experience/Experience";
 import Project from "./sections/Project/Project";
 import Contact from "./sections/Contact/Contact";
@@ -19,6 +20,7 @@ function App() {
         <Hero />
         <About />
         <TechStack />
+        <Education />
         <Experience />
         <Project />
         <Contact />
