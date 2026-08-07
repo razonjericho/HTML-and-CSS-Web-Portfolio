@@ -77,7 +77,7 @@ function Hero() {
                             },
                         }}
                     >
-                        Full-Stack Web Developer
+                        Full-Stack Developer
                     </Typography>
 
                     <Typography
@@ -98,12 +98,10 @@ function Hero() {
                             lineHeight: 1.8,
                         }}
                     >
-                        I build responsive, user-focused
-                        full-stack web applications using
-                        React, Node.js, Express, and PostgreSQL.
-                        I enjoy creating clean interfaces
-                        and reliable backend systems that
-                        solve real-world problems.
+                        I build responsive full-stack web applications with a strong focus 
+                        on clean user experiences, scalable backend architecture, and maintainable 
+                        code. I enjoy turning ideas into practical solutions that are intuitive, 
+                        reliable, and built with attention to detail.
                     </Typography>
 
                     <Typography
@@ -121,7 +119,7 @@ function Hero() {
                             color: "primary.main",
                         }}
                     >
-                        Let's build something amazing together.
+                        Always learning. Always improving. Always building.
                     </Typography>
 
                     <Stack

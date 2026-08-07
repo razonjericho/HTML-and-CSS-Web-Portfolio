@@ -14,7 +14,7 @@ function TechStackCard ({ title, skills }) {
 
                 width: "100%",
                 height: {
-                    xs: 180,
+                    xs: 250,
                     lg: "100%",
                 },
             }}

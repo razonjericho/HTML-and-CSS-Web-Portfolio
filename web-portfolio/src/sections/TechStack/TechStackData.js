@@ -33,6 +33,8 @@ const techStack = [
             "Postman",
             "Render",
             "Vercel",
+            "ChatGPT",
+            "VS Code"
         ],
     },
 ];
