@@ -91,10 +91,12 @@ function About() {
                                 lineHeight: 1.8,
                             }}
                         >
-                            I'm a Psychology graduate transitioning into full-stack
-                            software development. I enjoy building responsive,
-                            user-focused web applications with clean UI and efficient
-                            backend architecture.
+                            I'm an aspiring full-stack developer based in Cebu City, 
+                            Philippines, who enjoys building responsive, user-focused 
+                            web applications with clean interfaces and reliable backend 
+                            systems. I'm passionate about writing maintainable code and 
+                            creating software that is intuitive, scalable, and solves 
+                            real problems.
                         </Typography>
 
                         <Typography
@@ -113,10 +115,11 @@ function About() {
                                 lineHeight: 1.8,
                             }}
                         >
-                            My background in psychology strengthened my analytical
-                            thinking, communication, and understanding of user
-                            behavior—skills I now apply when designing intuitive and
-                            accessible software.
+                            Before pursuing software development professionally, I earned a 
+                            Bachelor's degree in Psychology. That background strengthened 
+                            my analytical thinking, communication, and understanding of user 
+                            behavior skills that help me design applications with both users 
+                            and developers in mind.
                         </Typography>
 
                         <Typography
@@ -134,10 +137,10 @@ function About() {
                                 lineHeight: 1.8,
                             }}
                         >
-                            I'm currently expanding my backend expertise through
-                            React, Node.js, Express, PostgreSQL, REST APIs, JWT
-                            authentication, and scalable application design while
-                            continuously improving as a software developer.
+                            I'm continuously improving my skills by building projects that reflect 
+                            best practices in performance, usability, and clean architecture while 
+                            expanding my knowledge of React, Node.js, Express, PostgreSQL, REST APIs, 
+                            and modern web development.
                         </Typography>
                     </Grid>
 
